@@ -136,7 +136,7 @@ function end(){
         btn.addEventListener("click", gameStart);
     }
 }
-
+end();
 function winningPositions() {
     if((boxes1.innerHTML === boxes2.innerHTML && boxes2.innerHTML === boxes3.innerHTML && boxes3.innerHTML === "0") || 
        (boxes1.innerHTML === boxes2.innerHTML && boxes2.innerHTML === boxes3.innerHTML && boxes3.innerHTML === "X")) {
